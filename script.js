@@ -23,7 +23,7 @@
      "How might we… Give people agency to choose learning pathways that work for them?", 
      "How might we… Help build connections between fields?", 
      "How might we… Help connections between fields?", 
-     "How might we… Help knowledge emerging collaboration?", 
+     "How might we… Help knowledge emerge in collaboration?", 
      "How might we… Help people 'go down the Rabbit hole'?", 
      "How might we… Help people be open to experiences?", 
      "How might we… Help people break the rules? (Safely)", 
