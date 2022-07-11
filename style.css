@@ -5,7 +5,7 @@
     --colour-activated: #eae6d4;
     --colour-purple: hsl(332, 24%, 53%);
     --colour-purple-active: hsl(162, 37%, 42%);
-    --base-font-size: 1rem;
+    --base-font-size: 1.25rem;
 }
 
 @keyframes fadeIn { 0% { opacity:0; } 100% { opacity:1; }}
@@ -22,7 +22,7 @@ html {
 
 body {
     color: var(--colour-fg);
-    font-family: 'Mali', cursive; 
+    font-family: 'Sriracha', cursive; 
     font-size: var(--base-font-size); 
     padding: 0; 
     margin: 0; 
@@ -67,7 +67,7 @@ a {
 button { 
     font-family: inherit; 
     font-size: var(--base-font-size); 
-    background: hsl(162, 42%, 52%); 
+    background: hsl(162, 6%, 37%); 
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem 1.25rem;
@@ -78,7 +78,7 @@ button {
 
 button:hover, 
 button:active {
-    background: var(--colour-purple-active);
+    background: hsl(162, 6%, 24%);
 }
 
 a:hover { 
@@ -141,6 +141,7 @@ a:hover {
 
 @media (min-width: 768px) {
     h1 { 
+        font-family: 'Sriracha', cursive; 
         font-size: 2rem;
     }
     main {
