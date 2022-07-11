@@ -5,7 +5,7 @@
     --colour-activated: #eae6d4;
     --colour-purple: hsl(332, 24%, 53%);
     --colour-purple-active: hsl(162, 37%, 42%);
-    --base-font-size: 1.25rem;
+    --base-font-size: 1rem;
 }
 
 @keyframes fadeIn { 0% { opacity:0; } 100% { opacity:1; }}
