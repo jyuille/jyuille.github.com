@@ -1,7 +1,7 @@
 :root {
     --colour-fg: #000;
     --colour-bg: #fff;
-    --colour-altbg: #f5efa7;
+    --colour-altbg: rgba(0, 0, 0, 0.27);
     --colour-activated: #eae6d4;
     --colour-purple: hsl(332, 24%, 53%);
     --colour-purple-active: hsl(162, 37%, 42%);
@@ -13,7 +13,7 @@
 html {
     font-size: 1em;
     line-height: 1.4;
-    background: white url('background.jpg');
+    background: #000 url('background.jpg');
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
