@@ -60,8 +60,12 @@ main {
     width: 100%;
 }
 
+small {
+    color: hsl(162, 31%, 82%);
+}
+
 a { 
-    color: var(--colour-purple); 
+    color: hsl(162, 62%, 66%); 
 }
 
 button { 
