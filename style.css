@@ -91,7 +91,7 @@ a:hover {
 }
 
 #card, .front, .back {
-    font-size: 3rem;
+    font-size: 2rem;
     border-radius: 1rem;
     width: 17.5rem;
     height: 20rem;
@@ -149,7 +149,7 @@ a:hover {
         padding: 1.25rem;
     }
     #card, .front, .back { 
-        font-size: 2.5rem;
+        font-size: 2rem;
         width: 27rem;
         height: 30rem;
     }
