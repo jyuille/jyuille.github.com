@@ -92,6 +92,7 @@ a:hover {
 
 #card, .front, .back {
     font-size: 3rem;
+    border-radius: 1rem;
     width: 17.5rem;
     height: 20rem;
 }
