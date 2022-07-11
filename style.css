@@ -1,11 +1,11 @@
 :root {
     --colour-fg: #000;
     --colour-bg: #fff;
-    --colour-altbg: #faf9ee;
+    --colour-altbg: #faf8e1;
     --colour-activated: #eae6d4;
     --colour-purple: #efaf36;
     --colour-purple-active: #d09830;
-    --base-font-size: 1.25rem;
+    --base-font-size: 1rem;
 }
 
 @keyframes fadeIn { 0% { opacity:0; } 100% { opacity:1; }}
@@ -22,7 +22,7 @@ html {
 
 body {
     color: var(--colour-fg);
-    font-family: 'Krub', sans-serif; 
+    font-family: 'Mali', cursive; 
     font-size: var(--base-font-size); 
     padding: 0; 
     margin: 0; 
@@ -91,9 +91,9 @@ a:hover {
 }
 
 #card, .front, .back {
-    font-size: 1rem;
+    font-size: 3rem;
     width: 17.5rem;
-    height: 6.48rem;
+    height: 20rem;
 }
 
 /* flip speed goes here */
@@ -147,9 +147,9 @@ a:hover {
         padding: 1.25rem;
     }
     #card, .front, .back { 
-        font-size: 1.25rem;
+        font-size: 2.5rem;
         width: 27rem;
-        height: 10rem;
+        height: 30rem;
     }
     #front, #back {
         margin: 0 3.125rem;
