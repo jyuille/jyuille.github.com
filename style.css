@@ -1,0 +1,161 @@
+:root {
+    --colour-fg: #000;
+    --colour-bg: #fff;
+    --colour-altbg: #faf9ee;
+    --colour-activated: #eae6d4;
+    --colour-purple: #efaf36;
+    --colour-purple-active: #d09830;
+    --base-font-size: 1.25rem;
+}
+
+@keyframes fadeIn { 0% { opacity:0; } 100% { opacity:1; }}
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+    background: white url('background.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    color: var(--colour-fg);
+    font-family: 'Krub', sans-serif; 
+    font-size: var(--base-font-size); 
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
+    transition: background 800ms linear; 
+    animation: fadeIn 500ms ease-in; 
+}
+
+h1, h2, h3 { color: var(--colour-purple);}
+
+h1 { 
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+main {
+    min-height: calc(100vh - 110px - 2.5rem);
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#card { 
+    -webkit-perspective: 1000;    
+    margin: 3rem auto;    
+    padding: 0;
+}
+
+#strategy { 
+    font-size: 1.4rem; 
+    text-align: center;
+    padding: 1rem 3rem;
+    width: 100%;
+}
+
+a { 
+    color: var(--colour-purple); 
+}
+
+button { 
+    font-family: inherit; 
+    font-size: var(--base-font-size); 
+    background: var(--colour-purple); 
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem 1.25rem;
+    color: white;
+    font-weight: 700;
+    transition: all 300ms ease; 
+}
+
+button:hover, 
+button:active {
+    background: var(--colour-purple-active);
+}
+
+a:hover { 
+    background: white; 
+}
+
+/* flip the pane when clicked */
+.flip {
+    -webkit-transform: rotateY(180deg);
+}
+
+#card, .front, .back {
+    font-size: 1rem;
+    width: 17.5rem;
+    height: 6.48rem;
+}
+
+/* flip speed goes here */
+.flipper {
+    -webkit-transition: 0.6s;
+    -webkit-transform-style: preserve-3d;
+    transition-timing-function: ease-in-out;
+    position: relative;
+}
+
+/* hide back of pane during swap */
+.front, .back {
+    text-align: center;
+    -webkit-backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: white;
+    border: 1px solid var(--colour-altbg);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
+}
+
+/* front pane, placed above back */
+.front {
+    z-index: 2;    
+}
+
+/* back, initially hidden pane */
+.back {
+    background: #f2f2f2;
+    -webkit-transform: rotateY(180deg);
+}
+
+#front, #back {
+    width: calc(100% - 3rem);
+    height: 100%;
+    margin: 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 300ms ease;
+}
+
+@media (min-width: 768px) {
+    h1 { 
+        font-size: 2rem;
+    }
+    main {
+        padding: 1.25rem;
+    }
+    #card, .front, .back { 
+        font-size: 1.25rem;
+        width: 27rem;
+        height: 10rem;
+    }
+    #front, #back {
+        margin: 0 3.125rem;
+        width: calc(100% - 6.25rem);
+    }
+}
+
+@media (min-width: 1024px) {
+}
