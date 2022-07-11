@@ -61,6 +61,7 @@ main {
 }
 
 small {
+    font-family: 'Krub', sans-serif;
     color: hsl(162, 31%, 82%);
 }
 
