@@ -1,10 +1,10 @@
 :root {
     --colour-fg: #000;
     --colour-bg: #fff;
-    --colour-altbg: #faf8e1;
+    --colour-altbg: #f5efa7;
     --colour-activated: #eae6d4;
-    --colour-purple: #efaf36;
-    --colour-purple-active: #d09830;
+    --colour-purple: hsl(332, 24%, 53%);
+    --colour-purple-active: hsl(162, 37%, 42%);
     --base-font-size: 1rem;
 }
 
@@ -67,7 +67,7 @@ a {
 button { 
     font-family: inherit; 
     font-size: var(--base-font-size); 
-    background: var(--colour-purple); 
+    background: hsl(162, 42%, 52%); 
     border: none;
     border-radius: 0.5rem;
     padding: 0.75rem 1.25rem;
@@ -111,7 +111,7 @@ a:hover {
     position: absolute;
     top: 0;
     left: 0;
-    background: white;
+    background: hsl(162, 42%, 52%);
     border: 1px solid var(--colour-altbg);
     -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
     -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,0.1);
@@ -125,7 +125,7 @@ a:hover {
 
 /* back, initially hidden pane */
 .back {
-    background: #f2f2f2;
+    background: hsl(332, 65%, 76%);
     -webkit-transform: rotateY(180deg);
 }
 
