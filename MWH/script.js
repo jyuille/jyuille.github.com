@@ -37,7 +37,7 @@ const hmw = [
      "How might we… Help people leave feeling good?", 
      "How might we… Help people pack their brain full of facts?", 
      "How might we… Help people realise there is more to know?", 
-     "How might we… Help people see things anew?￼", 
+     "How might we… Help people see things anew?", 
      "How might we… Help people shift their perspectives in the world?", 
      "How might we… Help people to 'do' learning?", 
      "How might we… Help people to 'get it' without needing to 'know it'?", 
@@ -54,7 +54,7 @@ const hmw = [
      "How might we… Learn from people?", 
      "How might we… Make it easier to 'tell us once'?",
      "How might we… Create something tangible to initiate and steward change?", 
-     "How might we… Make opportunities for space-time and cultural development", 
+     "How might we… Make opportunities for cultural development", 
      "How might we… Make opportunities for Yindyamarra?", 
      "How might we… Make space and time?", 
      "How might we… Make space for deep learning?", 
@@ -68,9 +68,6 @@ const hmw = [
      "How might we… Share transformative experiences?", 
      "How might we… Spark doubt or enlightenment ?", 
      "How might we… Spark motivation to learn", 
-     "How might we… Spark motivation to learn?", 
-     "How might we… Spark motivation to learn?", 
-     "How might we… Start your visit primed to learn?", 
      "How might we… Start your visit primed to learn?", 
      "How might we… Support audiences to earn knowledge?", 
      "How might we… Support confidence and movement?", 
@@ -80,10 +77,16 @@ const hmw = [
      "How might we… Support learning for fun?", 
      "How might we… Support learning through conversation?", 
      "How might we… Support people when they're challenged?", 
-     "How might we… Support the relationship between compliance and non-compliance?", 
+     "How might we… Support resepectful non-compliance?", 
      "How might we… Take ppl places they haven't been?", 
      "How might we… Take the benefit of all the years behind the work?", 
-     "How might we… Understand the connection we can make with an audience?"
+     "How might we… Understand the connection we can make with an audience?",
+    "What if staff were visitors too?",
+    "What if Pizza Pizza were helping us change?",
+    "How would Pixar design for learning?",
+    "What if we didn’t label it as learning?",
+    "What if we used to work together?",
+    "What if learning was core business?"
 ]  
 
 
